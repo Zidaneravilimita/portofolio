@@ -13,7 +13,7 @@
       <!-- Stats -->
       <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
         <div class="bg-gradient-to-br from-sky-400 to-blue-600 rounded-lg p-6 text-white text-center" data-aos="fade-up" data-aos-delay="100">
-          <div class="text-4xl font-bold mb-2">5+</div>
+          <div class="text-4xl font-bold mb-2">3+</div>
           <p class="opacity-90">Années d'expérience</p>
         </div>
         <div class="bg-gradient-to-br from-sky-400 to-blue-600 rounded-lg p-6 text-white text-center" data-aos="fade-up" data-aos-delay="200">
