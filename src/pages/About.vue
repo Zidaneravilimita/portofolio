@@ -8,7 +8,7 @@
         <img
           src="/profile.png"
           alt="photo"
-          class="w-80 rounded-2xl shadow-2xl border border-slate-800"
+          class="w-60 rounded-2xl shadow-2xl border border-slate-900"
         />
       </div>
 

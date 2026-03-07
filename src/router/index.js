@@ -5,6 +5,7 @@ import Skills from '../pages/Skills.vue'
 import Projects from '../pages/Projects.vue'
 import Contact from '../pages/Contact.vue'
 import CV from '../pages/CV.vue'
+import Chat from '../pages/Chat.vue'
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: '/cv',
     name: 'CV',
     component: CV
+  },
+  {
+    path: '/chat',
+    name: 'Chat',
+    component: Chat
   }
 ]
 

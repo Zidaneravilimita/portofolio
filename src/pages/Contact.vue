@@ -178,6 +178,31 @@
 
         </div>
 
+        <!-- CHAT BUTTON -->
+        <div
+          class="bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl p-8 shadow-xl"
+          data-aos="fade-left"
+          data-aos-delay="300"
+        >
+
+          <h3 class="text-xl font-bold mb-4">
+            Besoin d'aide rapide ?
+          </h3>
+
+          <p class="text-sm opacity-80 mb-6">
+            Posez vos questions directement à mon assistant IA
+          </p>
+
+          <router-link
+            to="/chat"
+            class="inline-flex items-center gap-2 px-6 py-3 bg-white/20 hover:bg-white/30 rounded-lg transition font-semibold"
+          >
+            <MessageCircle class="w-5 h-5" />
+            Plus de questions
+          </router-link>
+
+        </div>
+
       </div>
 
     </div>
@@ -237,6 +262,7 @@ import { ref, onMounted } from "vue"
 import AOS from "aos"
 import "aos/dist/aos.css"
 import Chatbot from "../components/Chatbot.vue"
+import { MessageCircle } from 'lucide-vue-next'
 
 const form = ref({
   name: "",
