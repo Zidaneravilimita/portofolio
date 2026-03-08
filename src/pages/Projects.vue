@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-slate-950 text-white py-20">
-    <div class="max-w-6xl mx-auto px-6">
+  <section class="bg-slate-950 text-white py-20 pb-32">
+    <div class="max-w-7xl mx-auto px-12">
       <h1 class="text-5xl font-bold mb-4 text-center">Mes Projets</h1>
       <p class="text-center text-slate-400 text-xl mb-16 max-w-2xl mx-auto">
         Découvrez une sélection de mes meilleures réalisations. Chaque projet représente une opportunity
@@ -24,30 +24,30 @@
         </button>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-6">
         <div
           v-for="project in filteredProjects"
           :key="project.id"
-          class="bg-slate-900 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
+          class="bg-slate-900 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 p-3"
           data-aos="fade-up"
         >
-          <div class="h-48 bg-gradient-to-br from-sky-400 to-blue-600 overflow-hidden relative group">
+          <div class="h-28 bg-gradient-to-br from-sky-400 to-blue-600 overflow-hidden relative group">
             <img :src="project.image" :alt="project.title" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" />
             <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"></div>
           </div>
-          <div class="p-6">
-            <h3 class="text-xl font-bold text-white mb-2">{{ project.title }}</h3>
-            <p class="text-slate-400 mb-4 line-clamp-2">{{ project.description }}</p>
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-white mb-2">{{ project.title }}</h3>
+            <p class="text-slate-400 mb-3 line-clamp-2 text-sm">{{ project.description }}</p>
 
-            <div class="flex flex-wrap gap-2 mb-6">
-              <span v-for="tag in project.tags" :key="tag" class="bg-sky-900 text-sky-300 text-xs font-semibold px-3 py-1 rounded-full">
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span v-for="tag in project.tags" :key="tag" class="bg-sky-900 text-sky-300 text-xs font-semibold px-2 py-1 rounded-full">
                 {{ tag }}
               </span>
             </div>
 
-            <div class="flex gap-3">
-              <a :href="project.demo" target="_blank" class="flex-1 bg-sky-500 hover:bg-sky-600 text-white px-4 py-2 rounded-lg text-center text-sm font-semibold transition">Voir en ligne</a>
-              <a :href="project.github" target="_blank" class="flex-1 border border-sky-500 text-sky-400 hover:bg-sky-500 hover:text-slate-900 px-4 py-2 rounded-lg text-center text-sm font-semibold transition">Code</a>
+            <div class="flex gap-2">
+              <a :href="project.demo" target="_blank" class="flex-1 bg-sky-500 hover:bg-sky-600 text-white px-3 py-2 rounded-lg text-center text-xs font-semibold transition">Voir en ligne</a>
+              <a :href="project.github" target="_blank" class="flex-1 border border-sky-500 text-sky-400 hover:bg-sky-500 hover:text-slate-900 px-3 py-2 rounded-lg text-center text-xs font-semibold transition">Code</a>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen bg-slate-950 text-white py-24 flex items-center justify-center">
+  <section class="min-h-screen bg-slate-950 text-white py-24 pb-32 flex items-center justify-center">
     
     <!-- Background Glow -->
     <div class="absolute top-0 left-0 w-[500px] h-[500px] bg-sky-500 blur-[200px] opacity-20"></div>

@@ -1,5 +1,5 @@
 <template>
-<section class="relative bg-slate-950 text-white py-24 overflow-hidden">
+<section class="relative bg-slate-950 text-white py-24 pb-32 overflow-hidden">
 
   <!-- background glow -->
   <div class="absolute top-0 left-0 w-[500px] h-[500px] bg-sky-500 blur-[200px] opacity-20"></div>
