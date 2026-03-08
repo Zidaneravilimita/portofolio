@@ -74,57 +74,57 @@ const selectedTech = ref(null)
 const projectsList = ref([
   {
     id: 1,
-    title: 'E-commerce Platform',
-    description: 'Plateforme e-commerce complète avec panier, paiement Stripe et gestion des commandes.',
-    image: 'https://via.placeholder.com/300x200?text=E-commerce',
-    tags: ['Vue.js', 'Node.js', 'MongoDB', 'Stripe'],
+    title: 'Portfolio',
+    description: 'Mon portfolio personnel présentant mes projets et compétences en développement web.',
+    image: '/project_images/portofolio.png',
+    tags: ['HTML', 'CSS', 'JavaScript'],
     demo: '#',
-    github: '#'
+    github: 'https://github.com/Zidaneravilimita/portfolio'
   },
   {
     id: 2,
-    title: 'Gestion de tâches collaborative',
-    description: 'Application pour gérer les tâches et projets en temps réel avec collaboration d\'équipe.',
-    image: 'https://via.placeholder.com/300x200?text=Task+Manager',
-    tags: ['React', 'Firebase', 'Tailwind'],
+    title: 'TODO-LIST',
+    description: 'Projet d\'exercice du FRAMEWORK JAVASCRIPT - Application de gestion de tâches.',
+    image: '/project_images/to-do-list.jpg',
+    tags: ['JavaScript', 'Framework'],
     demo: '#',
-    github: '#'
+    github: 'https://github.com/Zidaneravilimita/TODO-LIST'
   },
   {
     id: 3,
-    title: 'Blog Personnel',
-    description: 'Blog moderne avec système de commentaires, recherche et catégories automatisées.',
-    image: 'https://via.placeholder.com/300x200?text=Blog',
-    tags: ['Next.js', 'GraphQL', 'PostgreSQL'],
+    title: 'Agence de Voyage',
+    description: 'Site web pour une agence de voyage avec présentation des destinations et services.',
+    image: '/project_images/agence-de-voyage.jpg',
+    tags: ['HTML', 'CSS'],
     demo: '#',
-    github: '#'
+    github: 'https://github.com/Zidaneravilimita/Agence'
   },
   {
     id: 4,
-    title: 'Dashboard Analytics',
-    description: 'Tableau de bord analytique avec graphiques interactifs et statistiques temps réel.',
-    image: 'https://via.placeholder.com/300x200?text=Dashboard',
-    tags: ['Vue.js', 'Chart.js', 'Express'],
+    title: 'Black Panther',
+    description: 'Projet thématique inspiré de Black Panther avec design moderne.',
+    image: '/project_images/black_panther.jpg',
+    tags: ['HTML', 'CSS'],
     demo: '#',
-    github: '#'
+    github: 'https://github.com/Zidaneravilimita/Black-Panther'
   },
   {
     id: 5,
-    title: 'Chat Application',
-    description: 'Application de messagerie instantanée avec notifications et stockage d\'historique.',
-    image: 'https://via.placeholder.com/300x200?text=Chat',
-    tags: ['Vue.js', 'Socket.io', 'Node.js'],
+    title: 'Python Projects',
+    description: 'Projets et exercices de programmation en Python.',
+    image: '/project_images/python_logo.png',
+    tags: ['Python'],
     demo: '#',
-    github: '#'
+    github: 'https://github.com/Zidaneravilimita/python'
   },
   {
     id: 6,
-    title: 'Portfolio Generator',
-    description: 'Générateur automatique de portfolio avec templates et customisation en temps réel.',
-    image: 'https://via.placeholder.com/300x200?text=Portfolio+Gen',
-    tags: ['React', 'Webpack', 'AWS'],
+    title: 'Mon Premier Page',
+    description: 'Premier projet sur Git - Page web simple et élégante.',
+    image: 'https://via.placeholder.com/300x200?text=First+Page',
+    tags: ['HTML'],
     demo: '#',
-    github: '#'
+    github: 'https://github.com/Zidaneravilimita/Mon_premier_page'
   }
 ])
 

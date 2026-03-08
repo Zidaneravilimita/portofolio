@@ -1,10 +1,10 @@
 <template>
   <section class="min-h-screen mt-5 bg-slate-900 text-white flex items-center">
     
-    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+    <div class="max-w-6x1 mx-auto px-4 grid md:grid-cols-2 gap-16 items-center">
 
       <!-- Texte -->
-      <div data-aos="fade-right" class="mr-20 -ml-4">
+      <div  class="text-center md:text-left md:mx-auto" data-aos="fade-right" data-aos-duration="2000">
         <h1 class="text-3xl md:text-5xl font-bold leading-tight">
           Bonjour !
           <br />
@@ -21,7 +21,7 @@
           le développement web et mobile.
         </p>
 
-        <div class="mt-8 flex gap-4">
+        <div class="mt-8 flex gap-4 justify-center md:justify-start">
           
           <a href="#projects"
             class="group relative px-10 py-5 bg-gradient-to-r from-sky-500 to-blue-600 rounded-lg font-semibold overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-sky-500/25">
@@ -41,10 +41,10 @@
       </div>
 
       <!-- Image -->
-      <div class="flex justify-center" data-aos="fade-left">
+      <div class="flex justify-center" data-aos="fade-left" data-aos-duration="2000">
 
         <div
-          class="w-82 h-121 hover:scale-105 bg-gradient-to-r from-sky-400 to-blue-600 rounded-full flex items-end justify-center shadow-3xl pb-8 relative overflow-hidden">
+          class="w-65 h-101 hover:scale-100 bg-gradient-to-r from-sky-400 to-blue-500 rounded-full flex items-end justify-center shadow-3xl pb-6 relative overflow-hidden">
 
           <div class="absolute inset-0 bg-gradient-to-r from-sky-400 via-blue-500 to-sky-600 rounded-full animate-spin"></div>
           <div class="absolute inset-2 bg-gradient-to-r from-sky-400 to-blue-600 rounded-full"></div>
@@ -52,7 +52,7 @@
           <img
             src="/profile.png"
             alt="profile"
-            class="w-80 h-120 rounded-full object-cover border-2 border-slate-800 relative z-10"
+            class="w-64 h-100 rounded-full object-cover border-2 border-slate-800 relative z-1"
           />
 
         </div>
