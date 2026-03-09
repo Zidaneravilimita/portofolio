@@ -115,7 +115,7 @@
               <div class="text-2xl">📧</div>
               <div>
                 <p class="font-semibold">Email</p>
-                <p class="text-sm opacity-80">contact@email.com</p>
+                <p class="text-sm opacity-80">tahiendrazazidane@gmail.com</p>
               </div>
             </div>
 
@@ -123,7 +123,8 @@
               <div class="text-2xl">📱</div>
               <div>
                 <p class="font-semibold">Téléphone</p>
-                <p class="text-sm opacity-80">+261 XX XX XXX XX</p>
+                <p class="text-sm opacity-80">+261 32 68 792 14</p>
+                <p class="text-sm opacity-80">+261 34 30 970 61</p>
               </div>
             </div>
 
@@ -131,7 +132,7 @@
               <div class="text-2xl">📍</div>
               <div>
                 <p class="font-semibold">Localisation</p>
-                <p class="text-sm opacity-80">Madagascar</p>
+                <p class="text-sm opacity-80">Madagascar - Mahajanga</p>
               </div>
             </div>
 

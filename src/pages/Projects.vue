@@ -1,20 +1,20 @@
 <template>
-  <section class="bg-slate-950 text-white py-20 pb-32">
-    <div class="max-w-7xl mx-auto px-12">
+  <section class="bg-slate-950 text-white py-12 pb-20">
+    <div class="w-7xl mx-auto px-6 px-6 lg:px-8">
       <h1 class="text-5xl font-bold mb-4 text-center">Mes Projets</h1>
-      <p class="text-center text-slate-400 text-xl mb-16 max-w-2xl mx-auto">
+      <p class="text-center text-slate-400 text-xl mb-12 max-w-2xl mx-auto">
         Découvrez une sélection de mes meilleures réalisations. Chaque projet représente une opportunity
         d'innovation et d'excellence.
       </p>
 
       <!-- Filter Buttons -->
-      <div class="flex justify-center gap-4 mb-12 flex-wrap">
+      <div class="flex justify-center gap-4 mb-8 flex-wrap">
         <button
           v-for="tech in technologies"
           :key="tech"
           @click="selectedTech = selectedTech === tech ? null : tech"
           :class="[
-            'px-6 py-2 rounded-full font-semibold transition-all duration-300',
+            'px-8 py-3 rounded-full font-semibold transition-all duration-300 text-lg',
             selectedTech === tech
               ? 'bg-sky-400 text-slate-900'
               : 'bg-slate-800 text-slate-300 hover:bg-slate-700'
@@ -46,8 +46,8 @@
             </div>
 
             <div class="flex gap-2">
-              <a :href="project.demo" target="_blank" class="flex-1 bg-sky-500 hover:bg-sky-600 text-white px-3 py-2 rounded-lg text-center text-xs font-semibold transition">Voir en ligne</a>
-              <a :href="project.github" target="_blank" class="flex-1 border border-sky-500 text-sky-400 hover:bg-sky-500 hover:text-slate-900 px-3 py-2 rounded-lg text-center text-xs font-semibold transition">Code</a>
+              <a :href="project.demo" target="_blank" class="flex-1 bg-sky-500 hover:bg-sky-600 text-white px-4 py-3 rounded-lg text-center text-sm font-semibold transition">Voir en ligne</a>
+              <a :href="project.github" target="_blank" class="flex-1 border border-sky-500 text-sky-400 hover:bg-sky-500 hover:text-slate-900 px-4 py-3 rounded-lg text-center text-sm font-semibold transition">Code</a>
             </div>
           </div>
         </div>

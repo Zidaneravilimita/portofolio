@@ -24,14 +24,14 @@
         <div class="mt-8 flex gap-4 justify-center md:justify-start">
           
           <a href="#projects"
-            class="group relative px-10 py-5 bg-gradient-to-r from-sky-500 to-blue-600 rounded-lg font-semibold overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-sky-500/25">
+            class="group relative px-12 py-6 bg-gradient-to-r from-sky-500 to-blue-600 rounded-lg font-semibold overflow-hidden duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] hover:scale-105 hover:shadow-xl hover:shadow-sky-500/25 active:translate-y-1 active:scale-x-110 active:scale-y-90">
             <span class="relative z-10">Voir mes projets</span>
             <div class="absolute inset-0 bg-gradient-to-r from-sky-600 to-blue-700 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
             <div class="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500 skew-x-12"></div>
           </a>
 
           <a href="#contact"
-            class="group relative px-10 py-5 border-2 border-sky-400 text-sky-400 rounded-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-sky-400/20">
+            class="group relative px-12 py-6 border-2 border-sky-400 text-sky-400 rounded-lg overflow-hidden duration-300 [transition-timing-function:cubic-bezier(0.175,0.885,0.32,1.275)] hover:scale-105 hover:shadow-xl hover:shadow-sky-400/20 active:translate-y-1 active:scale-x-110 active:scale-y-90">
             <span class="relative z-10 transition-colors duration-300 group-hover:text-white">Me contacter</span>
             <div class="absolute inset-0 bg-gradient-to-r from-sky-400 to-blue-500 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
             <div class="absolute inset-0 border-2 border-sky-300 rounded-lg scale-105 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
