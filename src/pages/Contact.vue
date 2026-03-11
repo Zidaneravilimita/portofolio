@@ -26,11 +26,10 @@
       <div class="lg:col-span-2">
 
         <div
-          class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-10 shadow-2xl"
-          data-aos="fade-right"
-        >
+          class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-10 shadow-2xl translate-x-40 w-134 h-88"
+          data-aos="fade-right" data-aos-delay="100">
 
-          <form @submit.prevent="submitForm" class="space-y-6">
+          <form @submit.prevent="submitForm" class="space-y-6 w-130 h-80">
 
             <!-- NAME -->
             <div>
@@ -40,7 +39,7 @@
                 v-model="form.name"
                 type="text"
                 placeholder="Votre nom"
-                class="mt-2 w-full px-4 py-3 rounded-lg bg-slate-900 border border-slate-700 focus:border-sky-400 focus:ring-2 focus:ring-sky-400/30 outline-none transition"
+                class="mt-2 w-full h-10 px-4 py-3 rounded-lg bg-slate-900 border border-slate-700 focus:border-sky-400 focus:ring-2 focus:ring-sky-400/30 outline-none transition"
                 required
               />
             </div>
@@ -53,7 +52,7 @@
                 v-model="form.email"
                 type="email"
                 placeholder="email@example.com"
-                class="mt-2 w-full px-4 py-3 rounded-lg bg-slate-900 border border-slate-700 focus:border-sky-400 focus:ring-2 focus:ring-sky-400/30 outline-none transition"
+                class="mt-2 w-full h-10 px-4 py-3 rounded-lg bg-slate-900 border border-slate-700 focus:border-sky-400 focus:ring-2 focus:ring-sky-400/30 outline-none transition"
                 required
               />
             </div>
@@ -74,7 +73,7 @@
             <!-- BUTTON -->
             <button
               type="submit"
-              class="w-full py-4 rounded-lg bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700 font-semibold text-lg transition transform hover:scale-105 shadow-lg"
+              class="w-full h-10 py-4 rounded-lg bg-gradient-to-r from-sky-500 to-blue-600 cursor-pointer hover:from-sky-600 hover:to-blue-700 font-semibold text-lg transition transform hover:scale-105 shadow-lg"
             >
               Envoyer le message
             </button>
@@ -101,7 +100,7 @@
 
         <!-- CONTACT CARD -->
         <div
-          class="bg-gradient-to-br from-sky-500 to-blue-600 rounded-2xl p-8 shadow-xl"
+          class="bg-slate-800/50 backdrop-blur-lg border border-white/10 rounded-2xl p-8 shadow-xl"
           data-aos="fade-left"
         >
 
@@ -181,7 +180,7 @@
 
         <!-- CHAT BUTTON -->
         <div
-          class="bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl p-8 shadow-xl"
+          class="bg-slate-800/50 backdrop-blur-lg border border-white/10 rounded-2xl p-8 shadow-xl"
           data-aos="fade-left"
           data-aos-delay="300"
         >
@@ -216,7 +215,7 @@
         Questions fréquentes
       </h2>
 
-      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-8 max-w-4xl translate-x-40 mx-auto">
 
         <div class="bg-slate-800 p-6 rounded-xl border-l-4 border-sky-400">
           <h4 class="font-semibold mb-2">Quel est votre tarif ?</h4>

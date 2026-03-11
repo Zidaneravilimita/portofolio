@@ -1,9 +1,9 @@
 <template>
-  <section class="bg-slate-950 text-white py-12 pb-20">
-    <div class="w-7xl mx-auto px-6 px-6 lg:px-8">
+  <section class="bg-slate-950 text-white py-12 pb-30 mb-20">
+    <div class="w-7xl mx-auto px-6 px-10 lg:px-8">
       <h1 class="text-5xl font-bold mb-4 text-center">Mes Projets</h1>
-      <p class="text-center text-slate-400 text-xl mb-12 max-w-2xl mx-auto">
-        Découvrez une sélection de mes meilleures réalisations. Chaque projet représente une opportunity
+      <p class="text-center text-slate-400 text-xl translate-x-60 max-w-3xl mx-auto">
+        Découvrez une sélection de mes meilleures réalisations. Chaque projet représente une opportunité
         d'innovation et d'excellence.
       </p>
 
@@ -24,7 +24,7 @@
         </button>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
         <div
           v-for="project in filteredProjects"
           :key="project.id"
@@ -46,8 +46,8 @@
             </div>
 
             <div class="flex gap-2">
-              <a :href="project.demo" target="_blank" class="flex-1 bg-sky-500 hover:bg-sky-600 text-white px-4 py-3 rounded-lg text-center text-sm font-semibold transition">Voir en ligne</a>
-              <a :href="project.github" target="_blank" class="flex-1 border border-sky-500 text-sky-400 hover:bg-sky-500 hover:text-slate-900 px-4 py-3 rounded-lg text-center text-sm font-semibold transition">Code</a>
+              <a :href="project.demo" target="_blank" class="flex-1 bg-sky-500 hover:bg-sky-600 text-white px-4 py-3 rounded-lg text-center text-sm font-semibold transition h-8">Voir en ligne</a>
+              <a :href="project.github" target="_blank" class="flex-1 border border-sky-500 text-sky-400 hover:bg-sky-500 hover:text-slate-900 px-4 py-3 rounded-lg text-center text-sm font-semibold transition h-8">Code</a>
             </div>
           </div>
         </div>
